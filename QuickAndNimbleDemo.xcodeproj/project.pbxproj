@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E95540922F8C8BAF536776 /* Pods_QuickAndNimbleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0232FD4057496FB9B3A7C8B8 /* Pods_QuickAndNimbleDemo.framework */; };
+		170B50BFE329868914E04839 /* Pods_QuickAndNimbleDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12EF3D8B860853031667A6A /* Pods_QuickAndNimbleDemoTests.framework */; };
+		900F088F226C703300DEEDAF /* CarList.json in Resources */ = {isa = PBXBuildFile; fileRef = 900F088E226C703300DEEDAF /* CarList.json */; };
 		903CAFD5226C29F500C06D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CAFD4226C29F500C06D0B /* AppDelegate.swift */; };
-		903CAFD7226C29F500C06D0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CAFD6226C29F500C06D0B /* ViewController.swift */; };
 		903CAFDA226C29F500C06D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903CAFD8226C29F500C06D0B /* Main.storyboard */; };
 		903CAFDC226C29F600C06D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903CAFDB226C29F600C06D0B /* Assets.xcassets */; };
 		903CAFDF226C29F600C06D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903CAFDD226C29F600C06D0B /* LaunchScreen.storyboard */; };
-		903CAFEA226C29F600C06D0B /* QuickAndNimbleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CAFE9226C29F600C06D0B /* QuickAndNimbleDemoTests.swift */; };
 		903CAFF5226C29F600C06D0B /* QuickAndNimbleDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CAFF4226C29F600C06D0B /* QuickAndNimbleDemoUITests.swift */; };
+		903CB007226C2B5A00C06D0B /* CarListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CB006226C2B5A00C06D0B /* CarListResponse.swift */; };
+		903CB009226C303A00C06D0B /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CB008226C303A00C06D0B /* CarListViewController.swift */; };
+		903CB011226C399B00C06D0B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CB010226C399B00C06D0B /* UIColor+Extension.swift */; };
+		903CB013226C4EA800C06D0B /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CB012226C4EA800C06D0B /* CarCell.swift */; };
+		903CB015226C51B200C06D0B /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CB014226C51B200C06D0B /* Nibable.swift */; };
+		903CB017226C581600C06D0B /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903CB016226C581600C06D0B /* CarViewModel.swift */; };
+		9074AFF1226DDA3A00A65A23 /* StubHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074AFF0226DDA3A00A65A23 /* StubHelper.swift */; };
+		9074AFF3226DDBA300A65A23 /* CarList.json in Resources */ = {isa = PBXBuildFile; fileRef = 9074AFF2226DDBA300A65A23 /* CarList.json */; };
+		9074AFF5226DDDFB00A65A23 /* CarListViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074AFF4226DDDFB00A65A23 /* CarListViewControllerSpec.swift */; };
+		EC2D4E1E108A60FC43AEB285 /* Pods_QuickAndNimbleDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0452850C2B3CD6F0E0DB0AF /* Pods_QuickAndNimbleDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +45,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0232FD4057496FB9B3A7C8B8 /* Pods_QuickAndNimbleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickAndNimbleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		254238FFF08565DE30C648A4 /* Pods-QuickAndNimbleDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAndNimbleDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickAndNimbleDemoUITests/Pods-QuickAndNimbleDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25B7B4AA2541B60A3158CEEF /* Pods-QuickAndNimbleDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAndNimbleDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickAndNimbleDemoTests/Pods-QuickAndNimbleDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		361D30DA2D84ACF4666391C9 /* Pods-QuickAndNimbleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAndNimbleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickAndNimbleDemo/Pods-QuickAndNimbleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		900F088E226C703300DEEDAF /* CarList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CarList.json; sourceTree = "<group>"; };
 		903CAFD1226C29F500C06D0B /* QuickAndNimbleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickAndNimbleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		903CAFD4226C29F500C06D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		903CAFD6226C29F500C06D0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		903CAFD9226C29F500C06D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		903CAFDB226C29F600C06D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903CAFDE226C29F600C06D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		903CAFE0226C29F600C06D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		903CAFE5226C29F600C06D0B /* QuickAndNimbleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickAndNimbleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		903CAFE9226C29F600C06D0B /* QuickAndNimbleDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAndNimbleDemoTests.swift; sourceTree = "<group>"; };
 		903CAFEB226C29F600C06D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		903CAFF0226C29F600C06D0B /* QuickAndNimbleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickAndNimbleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		903CAFF4226C29F600C06D0B /* QuickAndNimbleDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAndNimbleDemoUITests.swift; sourceTree = "<group>"; };
 		903CAFF6226C29F600C06D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903CB006226C2B5A00C06D0B /* CarListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListResponse.swift; sourceTree = "<group>"; };
+		903CB008226C303A00C06D0B /* CarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
+		903CB010226C399B00C06D0B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		903CB012226C4EA800C06D0B /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		903CB014226C51B200C06D0B /* Nibable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
+		903CB016226C581600C06D0B /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		9074AFF0226DDA3A00A65A23 /* StubHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubHelper.swift; sourceTree = "<group>"; };
+		9074AFF2226DDBA300A65A23 /* CarList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CarList.json; sourceTree = "<group>"; };
+		9074AFF4226DDDFB00A65A23 /* CarListViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewControllerSpec.swift; sourceTree = "<group>"; };
+		C438CA05D83DB2289C9F1219 /* Pods-QuickAndNimbleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAndNimbleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickAndNimbleDemo/Pods-QuickAndNimbleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D864E43554359B38359B72E0 /* Pods-QuickAndNimbleDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAndNimbleDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickAndNimbleDemoUITests/Pods-QuickAndNimbleDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2C0107F008FCA1CD85096AC /* Pods-QuickAndNimbleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAndNimbleDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickAndNimbleDemoTests/Pods-QuickAndNimbleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0452850C2B3CD6F0E0DB0AF /* Pods_QuickAndNimbleDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickAndNimbleDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12EF3D8B860853031667A6A /* Pods_QuickAndNimbleDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickAndNimbleDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E95540922F8C8BAF536776 /* Pods_QuickAndNimbleDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170B50BFE329868914E04839 /* Pods_QuickAndNimbleDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2D4E1E108A60FC43AEB285 /* Pods_QuickAndNimbleDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72A21CEE91FB9F6D3E5B5D87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0232FD4057496FB9B3A7C8B8 /* Pods_QuickAndNimbleDemo.framework */,
+				F12EF3D8B860853031667A6A /* Pods_QuickAndNimbleDemoTests.framework */,
+				F0452850C2B3CD6F0E0DB0AF /* Pods_QuickAndNimbleDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		903CAFC8226C29F500C06D0B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				903CAFE8226C29F600C06D0B /* QuickAndNimbleDemoTests */,
 				903CAFF3226C29F600C06D0B /* QuickAndNimbleDemoUITests */,
 				903CAFD2226C29F500C06D0B /* Products */,
+				B850DA3663A93E77A01F15AD /* Pods */,
+				72A21CEE91FB9F6D3E5B5D87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +140,9 @@
 		903CAFD3226C29F500C06D0B /* QuickAndNimbleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				903CB00F226C397E00C06D0B /* Extension */,
 				903CAFD4226C29F500C06D0B /* AppDelegate.swift */,
-				903CAFD6226C29F500C06D0B /* ViewController.swift */,
+				903CB002226C2A2800C06D0B /* Cars */,
 				903CAFD8226C29F500C06D0B /* Main.storyboard */,
 				903CAFDB226C29F600C06D0B /* Assets.xcassets */,
 				903CAFDD226C29F600C06D0B /* LaunchScreen.storyboard */,
@@ -110,7 +154,8 @@
 		903CAFE8226C29F600C06D0B /* QuickAndNimbleDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				903CAFE9226C29F600C06D0B /* QuickAndNimbleDemoTests.swift */,
+				9074AFEE226DD9AD00A65A23 /* ViewControllers */,
+				9074AFEF226DD9C600A65A23 /* Stubs */,
 				903CAFEB226C29F600C06D0B /* Info.plist */,
 			);
 			path = QuickAndNimbleDemoTests;
@@ -125,6 +170,89 @@
 			path = QuickAndNimbleDemoUITests;
 			sourceTree = "<group>";
 		};
+		903CB002226C2A2800C06D0B /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				903CB00A226C32F800C06D0B /* Cell */,
+				903CB005226C2A8D00C06D0B /* ViewController */,
+				903CB004226C2A6500C06D0B /* ViewModel */,
+				903CB003226C2A3300C06D0B /* Model */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		903CB003226C2A3300C06D0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				900F088E226C703300DEEDAF /* CarList.json */,
+				903CB006226C2B5A00C06D0B /* CarListResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		903CB004226C2A6500C06D0B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				903CB016226C581600C06D0B /* CarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		903CB005226C2A8D00C06D0B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				903CB008226C303A00C06D0B /* CarListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		903CB00A226C32F800C06D0B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				903CB012226C4EA800C06D0B /* CarCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		903CB00F226C397E00C06D0B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				903CB010226C399B00C06D0B /* UIColor+Extension.swift */,
+				903CB014226C51B200C06D0B /* Nibable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9074AFEE226DD9AD00A65A23 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9074AFF4226DDDFB00A65A23 /* CarListViewControllerSpec.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9074AFEF226DD9C600A65A23 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				9074AFF0226DDA3A00A65A23 /* StubHelper.swift */,
+				9074AFF2226DDBA300A65A23 /* CarList.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		B850DA3663A93E77A01F15AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				361D30DA2D84ACF4666391C9 /* Pods-QuickAndNimbleDemo.debug.xcconfig */,
+				C438CA05D83DB2289C9F1219 /* Pods-QuickAndNimbleDemo.release.xcconfig */,
+				25B7B4AA2541B60A3158CEEF /* Pods-QuickAndNimbleDemoTests.debug.xcconfig */,
+				E2C0107F008FCA1CD85096AC /* Pods-QuickAndNimbleDemoTests.release.xcconfig */,
+				254238FFF08565DE30C648A4 /* Pods-QuickAndNimbleDemoUITests.debug.xcconfig */,
+				D864E43554359B38359B72E0 /* Pods-QuickAndNimbleDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 903CAFF9226C29F600C06D0B /* Build configuration list for PBXNativeTarget "QuickAndNimbleDemo" */;
 			buildPhases = (
+				6070944649154823A09CDEEF /* [CP] Check Pods Manifest.lock */,
 				903CAFCD226C29F500C06D0B /* Sources */,
 				903CAFCE226C29F500C06D0B /* Frameworks */,
 				903CAFCF226C29F500C06D0B /* Resources */,
@@ -149,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 903CAFFC226C29F600C06D0B /* Build configuration list for PBXNativeTarget "QuickAndNimbleDemoTests" */;
 			buildPhases = (
+				F3E585D8E76E507570A24A16 /* [CP] Check Pods Manifest.lock */,
 				903CAFE1226C29F600C06D0B /* Sources */,
 				903CAFE2226C29F600C06D0B /* Frameworks */,
 				903CAFE3226C29F600C06D0B /* Resources */,
+				9882E6FBE722BDBC07A84A13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 903CAFFF226C29F600C06D0B /* Build configuration list for PBXNativeTarget "QuickAndNimbleDemoUITests" */;
 			buildPhases = (
+				63E91423ED73E0C4F2EC1BB5 /* [CP] Check Pods Manifest.lock */,
 				903CAFEC226C29F600C06D0B /* Sources */,
 				903CAFED226C29F600C06D0B /* Frameworks */,
 				903CAFEE226C29F600C06D0B /* Resources */,
@@ -196,6 +328,7 @@
 					};
 					903CAFE4226C29F600C06D0B = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 						TestTargetID = 903CAFD0226C29F500C06D0B;
 					};
 					903CAFEF226C29F600C06D0B = {
@@ -231,6 +364,7 @@
 			files = (
 				903CAFDF226C29F600C06D0B /* LaunchScreen.storyboard in Resources */,
 				903CAFDC226C29F600C06D0B /* Assets.xcassets in Resources */,
+				900F088F226C703300DEEDAF /* CarList.json in Resources */,
 				903CAFDA226C29F500C06D0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9074AFF3226DDBA300A65A23 /* CarList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +386,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6070944649154823A09CDEEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickAndNimbleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63E91423ED73E0C4F2EC1BB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickAndNimbleDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9882E6FBE722BDBC07A84A13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuickAndNimbleDemoTests/Pods-QuickAndNimbleDemoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickAndNimbleDemoTests/Pods-QuickAndNimbleDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E585D8E76E507570A24A16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickAndNimbleDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		903CAFCD226C29F500C06D0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903CAFD7226C29F500C06D0B /* ViewController.swift in Sources */,
+				903CB013226C4EA800C06D0B /* CarCell.swift in Sources */,
+				903CB011226C399B00C06D0B /* UIColor+Extension.swift in Sources */,
+				903CB007226C2B5A00C06D0B /* CarListResponse.swift in Sources */,
+				903CB015226C51B200C06D0B /* Nibable.swift in Sources */,
 				903CAFD5226C29F500C06D0B /* AppDelegate.swift in Sources */,
+				903CB009226C303A00C06D0B /* CarListViewController.swift in Sources */,
+				903CB017226C581600C06D0B /* CarViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +482,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903CAFEA226C29F600C06D0B /* QuickAndNimbleDemoTests.swift in Sources */,
+				9074AFF5226DDDFB00A65A23 /* CarListViewControllerSpec.swift in Sources */,
+				9074AFF1226DDA3A00A65A23 /* StubHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +648,11 @@
 		};
 		903CAFFA226C29F600C06D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361D30DA2D84ACF4666391C9 /* Pods-QuickAndNimbleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88F3596FP2;
 				INFOPLIST_FILE = QuickAndNimbleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +667,11 @@
 		};
 		903CAFFB226C29F600C06D0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C438CA05D83DB2289C9F1219 /* Pods-QuickAndNimbleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88F3596FP2;
 				INFOPLIST_FILE = QuickAndNimbleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,9 +686,11 @@
 		};
 		903CAFFD226C29F600C06D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B7B4AA2541B60A3158CEEF /* Pods-QuickAndNimbleDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QuickAndNimbleDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,6 +700,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.bs23.QuickAndNimbleDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickAndNimbleDemo.app/QuickAndNimbleDemo";
@@ -484,9 +709,11 @@
 		};
 		903CAFFE226C29F600C06D0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C0107F008FCA1CD85096AC /* Pods-QuickAndNimbleDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QuickAndNimbleDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -504,6 +731,7 @@
 		};
 		903CB000226C29F600C06D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254238FFF08565DE30C648A4 /* Pods-QuickAndNimbleDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +751,7 @@
 		};
 		903CB001226C29F600C06D0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D864E43554359B38359B72E0 /* Pods-QuickAndNimbleDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

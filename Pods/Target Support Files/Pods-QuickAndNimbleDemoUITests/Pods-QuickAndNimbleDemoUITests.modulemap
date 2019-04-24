@@ -1,0 +1,6 @@
+framework module Pods_QuickAndNimbleDemoUITests {
+  umbrella header "Pods-QuickAndNimbleDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
